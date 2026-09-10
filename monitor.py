@@ -10,8 +10,8 @@ with urllib.request.urlopen(URL) as r:
 print("Response:")
 print(data)
 
-#if isinstance(data, list) and len(data) == 0:
-if False:
+if isinstance(data, list) and len(data) == 0:
+#if False:
     print("NO_FREE_SLOTS")
 else:
     print("FREE_SLOTS_FOUND")
